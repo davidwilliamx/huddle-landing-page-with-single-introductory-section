@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    margin: 0 20px;
+    margin: 0 1.25rem;
 }
 
 .page__left {
@@ -31,10 +31,10 @@ body {
     justify-content: center;
 }
 .header {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .banner {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .banner__image {
     width: 100%;
@@ -51,7 +51,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .content__title {
     font-family: var(--primary-font);
@@ -59,7 +59,7 @@ body {
     font-weight: 600;
     line-height: 2.5rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .content__text {
     font-family: var(--secondary-font);
@@ -67,7 +67,7 @@ body {
     font-weight: 400;
     line-height: 2rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .content__button {
     font-family: var(--primary-font);
@@ -77,11 +77,11 @@ body {
     color: var(--violet);
     background-color: var(--white);
     border-radius: 2.5rem;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     border: 0;
     cursor: pointer;
     width: 100%;
-    max-width: 402px;
+    max-width: 25.125rem;
 }
 .content__button:hover {
     color: var(--white);
@@ -93,14 +93,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .social__link svg {
-    border: 2px solid var(--white);
+    border: 0.125rem solid var(--white);
     border-radius: 50%;
-    width: 20px;
-    height: 16px;
-    padding: 8px;
+    width: 1.25rem;
+    height: 1rem;
+    padding: 0.5rem;
     fill: var(--white);
 }
 .social__link svg:hover {
@@ -108,17 +108,17 @@ body {
     fill: var(--soft-magenta);
 }
 
-@media (min-width: 425px) {
+@media (min-width: 64rem) {
     .page {
-        margin: 0 40px;
+        margin: 0 2.5rem;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .page {
-        margin: 0 80px;
+        margin: 0 5rem;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
     body {
         background-image: url(../images/bg-desktop.svg);
         background-size: cover;
@@ -129,24 +129,25 @@ body {
         flex-direction: row;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 75rem) {
     .page__left {
         max-width: 55%;
-        margin-right: 60px;
+        margin-right: 3.75rem;
     }
     .page__right {
         max-width: 40%;
     }
     .content__button {
-        max-width: 202px;
+        max-width: 12.625rem;
     }
 }
-@media (min-width: 1440px) {
+@media (min-width: 90rem) {
     .page__left {
-        max-width: 696px;
+        max-width: 60.5625rem;
     }
     .content__title {
         font-size: 2.5rem;
+        line-height: 3.75rem;
         text-align: left;
     }
     .content__text {
@@ -158,6 +159,6 @@ body {
     .social {
         position: fixed;
         align-self: flex-end;
-        bottom: 40px;
+        bottom: 2.5rem;
     }
 }
